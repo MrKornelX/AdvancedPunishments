@@ -1,0 +1,21 @@
+name: AdvancedPunishments
+version: ${project.version}
+main: me.mrkornel.advancedpunishments.AdvancedPunishments
+authors: [MrKornel]
+description: punishemtns
+commands:
+  pkick:
+    usage: /pkick <player> <reason>
+  pban:
+    usage: /pban <player> <reason> <time>
+  preload:
+    usage: /preload
+    aliases: /prl
+  phelp:
+    usage: /phelp
+  puban:
+    usage: /puban <player>
+  pmute:
+    usage: /pmute <player> <reason> <time>
+  punmute:
+    usage: /punmute <player>
