@@ -19,3 +19,19 @@ commands:
     usage: /pmute <player> <reason> <time>
   punmute:
     usage: /punmute <player>
+permissions:
+  advancedpunishments.ban:
+    default: op
+    description: /pban permission
+  advancedpunishments.kick:
+      default: op
+      description: /pkick permission
+  advancedpunishments.unban:
+    default: op
+    description: /puban permission
+  advancedpunishments.unmute:
+    default: op
+    description: /punmute permission
+  advancedpunishments.help:
+    default: op
+    description: /phelp permission

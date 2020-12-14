@@ -22,7 +22,7 @@ public class UnMuteCommand implements CommandExecutor {
     public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
         Player player = (Player) sender;
         if(cmd.getName().equalsIgnoreCase("punmute")) {
-            if(!sender.hasPermission("advancedpunishments.unban")) {
+            if(!sender.hasPermission("advancedpunishments.unmute")) {
                 player.sendMessage(ChatColor.RED + "AdvancedPunishments " + ChatColor.GRAY + "» " + plugin.getConfig().get("NoPermission"));
             }
             try {
